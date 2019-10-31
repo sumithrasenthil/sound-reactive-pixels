@@ -77,7 +77,7 @@
 //#define led_2_strip_63
 //#define led_2_strip_63_qr
 
-//
+
 // important setting: using potentiometer sensor values or not
 // This setting has to be set right or the script will not work correctly:
 // - set to true if using potentiometers
@@ -86,9 +86,9 @@
 
 const int useSensorValues = true;                         // @EB
 
-//
+
 // setup pins
-//
+
 
 int leftPin = A0, rightPin = A0;                          // left audio in on analog 0, right on analog 1
 int brightnessPin = A0, sensitivityPin = A0;              // potentiometers for brightness and sensitivity on analog 4 and 5
